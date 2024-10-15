@@ -8,6 +8,5 @@ public class Scan {
         System.out.println("Введите число: ");
         int num1 = sc.nextInt();
         return num1;
-
     }
 }
