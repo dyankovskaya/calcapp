@@ -3,15 +3,11 @@ package ru.dyankovskaya.calcapp.util;
 import java.util.Scanner;
 
 public class Scan {
-    public static void scaner(String[] args) {
+    public static int scanner() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите первое число: ");
+        System.out.println("Введите число: ");
         int num1 = sc.nextInt();
-        System.out.println("Введите второе число: ");
-        int num2 = sc.nextInt();
-        System.out.println("Выберите арифметическую операцию (+, - или *): ");
-        int oper = sc.nextInt();
+        return num1;
+
     }
-
-
 }
