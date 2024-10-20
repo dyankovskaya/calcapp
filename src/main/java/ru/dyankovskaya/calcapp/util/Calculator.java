@@ -2,18 +2,15 @@ package ru.dyankovskaya.calcapp.util;
 
 public class Calculator  {
 
-    public static int sum(int x, int y) {
-        int result = x + y;
-        return result;
+    public static int sum(int num1, int num2) {
+        return num1 + num2;
     }
 
-    public static int subtract(int x, int y) {
-        int result = x - y;
-        return result;
+    public static int diff(int num1, int num2) {
+        return num1 - num2;
     }
 
-    public static int multiply(int x, int y) {
-        int result = x * y;
-        return result;
+    public static int multiply(int num1, int num2) {
+        return num1 * num2;
     }
 }
